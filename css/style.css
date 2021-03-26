@@ -1,35 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&display=swap');
 
 body{
-    background-color: rgb(46, 46, 46);
-    color: rgb(168, 168, 168);
+    background-color: rgba(197, 198, 255, 0.979);
+    color: rgb(3, 3, 3);
     margin: 0;
     text-align: center;
-    font-family: 'Merriweather', serif;
-
-    
+    font-family: 'Bebas Neue', cursive;    
 }
-
-
 .contenedor{
     position: relative;
     display: inline-block;
     text-align: center;
 }
- 
 .texto-encima{
     position: absolute;
     top: 98%;
     left: 50%;
     transform: translate(-50%, -98%);
 
-    color: #3260aa;
-    font-family: 'Fredoka One', cursive;
+    color: #ffffff;
+    font-family: 'Bebas Neue', cursive;
     text-align: center;
     font-size: 2rem;
     font-weight: bold;
     padding-bottom: 10px;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #ffffff;
 }
 .centrado{
     position: absolute;
@@ -37,9 +32,9 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 
-    color: #3260aa;
+    color: #129b19;
     font-size: 5.625rem;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Bebas Neue', cursive;
     text-align: center;
     margin: auto;
     -webkit-text-stroke-width: 2px;
@@ -55,34 +50,30 @@ body{
 }
 
 h1{
-    color: #3260aa;
+    color: #46aa32;
     font-size: 5.625rem;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Bebas Neue', cursive;
     text-align: center;
     margin: auto;
-    -webkit-text-stroke-width: 0.02px;
-    -webkit-text-stroke-color: #ffffff;
 }
 
 h2{
-    color: #ffffff;
-    font-family: 'Fredoka One', cursive;
+    color: #202020;
+    font-family: 'Bebas Neue', cursive;
     font-size: 3rem;
     font-weight: bold;
     padding-bottom: 10px;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #3260aa;
 
 }
 
 h3{
-    color: #e4e4e4;
-    font-family: 'Montserrat', sans-serif;
+    color: #3260aa;
+    font-family: 'Lora', serif;
 }
 
 p{
     line-height: 2;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Bebas Neue', cursive;
 }
 
 hr{
@@ -97,7 +88,7 @@ a{
     font-family: 'Montserrat', sans-serif;
     margin: 10px 20px;
     text-decoration: none;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Bebas Neue', cursive;
 }
 
 a:hover{
@@ -164,7 +155,7 @@ a:hover{
     -moz-border-radius: 8px;
     border-radius: 8px;
     color: #FFFFFF;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Bebas Neue', cursive;
     font-size: 20px;
     padding: 20px;
     border: solid #337FED 0px;
@@ -172,7 +163,6 @@ a:hover{
     display: inline-block;
     cursor: pointer;
     text-align: center;
-    font-family: 'Fredoka One', cursive;
 }
     
 .btn:hover {
