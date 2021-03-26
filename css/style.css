@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+body{
+    background-color: rgb(46, 46, 46);
+    color: rgb(168, 168, 168);
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+
+    
+}
+
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+ 
+.texto-encima{
+    position: absolute;
+    top: 98%;
+    left: 50%;
+    transform: translate(-50%, -98%);
+
+    color: #3260aa;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffffff;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: #3260aa;
+    font-size: 5.625rem;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    margin: auto;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #ffffff;
+}
+
+
+.pto{
+        padding: 1em;
+        border: 2px solid #3260aa;
+        width: 230px;
+        height: 200px;
+}
+
+h1{
+    color: #3260aa;
+    font-size: 5.625rem;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    margin: auto;
+    -webkit-text-stroke-width: 0.02px;
+    -webkit-text-stroke-color: #ffffff;
+}
+
+h2{
+    color: #ffffff;
+    font-family: 'Fredoka One', cursive;
+    font-size: 3rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #3260aa;
+
+}
+
+h3{
+    color: #e4e4e4;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    line-height: 2;
+    font-family: 'Fredoka One', cursive;
+}
+
+hr{
+    border: dotted #3260aa 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+    font-family: 'Fredoka One', cursive;
+}
+
+a:hover{
+    color: #6fa4fa;
+}
+
+.contenedorSuperior{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.contenedorMedio{
+    margin: 100px 0;
+}
+
+.contenedorInferior{
+    background-color: #3260aa;
+    padding: 50px 0 20px;
+}
+
+.filaHabilidades{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+}
+
+.mensajeContacto{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+
+.codigoImg{
+    width: 10%;
+    float: left;
+    margin: 30px;
+}
+
+.controlImg{
+    width: 10%;
+    float: left;
+    margin: 30px;
+}
+
+.btn {
+    background: #3260aa;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    border: solid #337FED 0px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+}
+    
+.btn:hover {
+    border: solid rgb(172, 172, 172) 0px;
+    background: #538eec;
+    color: #FFFFFF;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    text-decoration: none;
+}
